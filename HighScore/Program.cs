@@ -6,7 +6,7 @@
         static void Main(string[] args)
         {
             //Path to the file that you wish to read highscores from.
-            string filePath = @"C:\Users\marku\Desktop\Personal projects\HighScore\HighScore.txt.txt";
+            string filePath = @"C:\Users\marku\Desktop\Personal projects\HighScore\HighScore.txt";
 
             //Read the files lines from filePath.
             string[] lines = File.ReadAllLines(filePath);
